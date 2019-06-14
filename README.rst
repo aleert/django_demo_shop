@@ -29,11 +29,11 @@ There are several steps to run this project.
 4. Load data with ``python manage.py loaddata fixtures``
 
 5. Optionally, you can collect static files ``python manage.py collectstatic``, but everything
-should work without it.
+   should work without it.
 
 6. Create superuser to acess ``admin/`` part of the site: ``python manage.py createsuperuser``
 
-6. Run ``python manage.py runserver`` and explore
+7. Run ``python manage.py runserver`` and explore
 
 NB: there are also user related parts that are not available as links on pages, but rather by a direct url.
 Those are start with 'user/' and you can find them all in ``user/urls.py``. Those urls are irrelevant for
