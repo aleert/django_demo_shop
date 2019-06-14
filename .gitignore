@@ -1,0 +1,11 @@
+.idea/
+dist/
+build/
+pylex.egg-info/
+__pycache__/
+static/
+shop_demo/media/*
+*.pyc
+.env
+
+
